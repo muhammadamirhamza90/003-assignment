@@ -28,6 +28,23 @@
             }
         }
     </script>
+    <!-- CSS custom style -->
+    <style>
+        #program_section {
+            background-image: url(./assets/2.png);
+            background-repeat: no-repeat;
+        }
+
+        #program_section2 {
+            background-image: url(./assets/3.png);
+            background-repeat: no-repeat;
+        }
+
+        #program_section3 {
+            background-image: url(./assets/4.png);
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 
 <body>
@@ -120,7 +137,7 @@
     </header>
     <main>
         <!-- Professional Hockeys Club -->
-        <section class="container mx-auto mt-64 lg:mt-24 text-center bg-slate-300">
+        <section class="container mx-auto mt-64 lg:mt-24 text-center">
             <div class="px-4 py-24">
                 <h3 class="lg:text-3xl text-xl font-extrabold pb-4 ">Professional <span
                         class="text-[#ff5252]">Hockeys</span> Club</h3>
@@ -130,7 +147,7 @@
                 </p>
             </div>
             <!-- Radial Progress -->
-            <div class="px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 space-x-5">
+            <div class="px-4 grid lg:grid-cols-4 grid-cols-1 space-x-5">
                 <!-- radial 1 -->
                 <div class="pb-8">
                     <div class="radial-progress text-primary text-red-600" style="--value:70;" role="progressbar">
@@ -173,6 +190,68 @@
                 </div>
             </div>
         </section>
+
+        <!-- Program Sections -->
+        <section class="container mx-auto lg:my-40 my-8 relative">
+            <div class="">
+                <div class="text-center">
+                    <h3 class="lg:text-4xl text-xl font-extrabold mb-4">Program Sections</h3>
+                    <p class="font-medium text-gray-500">Diverse program sections tailored for holistic development,
+                        ensuring growth in skills, knowledge, and
+                        character for our participants. Join us today!
+                    </p>
+                </div>
+                <!-- register div -->
+                <div class="grid lg:grid-cols-4 grid-cols-1 lg:mt-14 mt-4 relative px-4">
+                    <div id="program_section"
+                        class="card card-compact  shadow-xl mb-4 lg:absolute lg:right-36 lg:w-[570px] lg:h-[300px]">
+                        <div class="card-body relative lg:mt-20">
+                            <h2 class="card-title text-white lg:text-3xl font-extrabold">Junior Program</h2>
+                            <p class="text-white ">
+                                Nurture talent, foster passion! Our Junior Program offers top-notch coaching, a
+                                supportive
+                                community, and a path to sports excellence. Join us for a promising journey!
+                            </p>
+                            <div class="card-actions lg:absolute top-32">
+                                <button class="btn bg-[#FF4240] border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="program_section2"
+                        class="card card-compact  shadow-xl mb-4 lg:absolute lg:left-56 lg:w-[570px] lg:h-[300px]">
+                        <div class="card-body relative lg:mt-20">
+                            <h2 class="card-title text-white lg:text-3xl font-extrabold">Teenager Program</h2>
+                            <p class="text-white mt-4">
+                                Elevate skills, build character. Our Teenager Program provides expert coaching and
+                                mentorship for aspiring athletes. Unleash your potential with us!
+                            </p>
+                            <div class="card-actions lg:absolute top-32">
+                                <button class="btn bg-[#FF4240] border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-4 lg:absolute lg:top-[450px] lg:left-[210px]">
+                    <div id="program_section3" class="card card-compact  shadow-xl mb-4  lg:w-[1200px] lg:h-[300px]">
+                        <div class="card-body lg:mt-20">
+                            <h2 class="card-title text-white lg:text-3xl font-extrabold lg:mt-11">Professional Program
+                            </h2>
+                            <p class="text-white mt-4">
+                                Unlock excellence in our Professional Program. Elite coaching, cutting-edge facilities,
+                                and a path to success. Join us on the journey!
+                            </p>
+                            <div class="lg:absolute top-60">
+                                <button class="btn bg-[#FF4240] border-none text-white">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- program section second and third card -->
+
     </main>
 </body>
 
